@@ -20,5 +20,5 @@ if __name__ == "__main__":
     nums =  [-1,0,1,2,3]
     output = Solution().productExceptSelf(nums)
     print(output)
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(1)')
