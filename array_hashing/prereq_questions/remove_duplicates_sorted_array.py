@@ -1,6 +1,4 @@
-import copy
-
-
+# Question Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -22,3 +20,5 @@ if __name__ == "__main__":
     print('INPUT BEFORE DUPLICATE: ', input, ' LEN: ', len(input))
     new_len = Solution().removeDuplicates(input)
     print('INPUT AFTER DUPLICATE: ', input, ' LEN: ', new_len)
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(1)')
