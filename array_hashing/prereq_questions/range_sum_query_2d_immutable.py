@@ -77,5 +77,5 @@ if __name__ == "__main__":
     for i in range(1, len(input)):
         sum = class_inst.sumRegion(input[i][0], input[i][1], input[i][2], input[i][3])
         print(f'SUM REGION: {input[i]}: {sum}')
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(1)')
+    print('SPACE COMPLEXITY: O(M*N)')
