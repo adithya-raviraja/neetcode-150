@@ -7,24 +7,29 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        i = 0
-        j = 1
-        counter = 0
+        if len(height) == 0:
+            return 0
 
-        while i < (len(height) - 1) and j < (len(height) - 1):
-            if i == 0 and height[i] == 0:
-                i = i + 1
-                j = j + 1
-                continue
-
-            if height[i] == height[j]:
-                i = i + 1
-                j = j + 1
+        left = 0
+        right = len(height) - 1
+        left_max = height[left]
+        right_max = height[right]
+        res = 0
+        while left < right:
+            if left_max < right_max:
+                left = left + 1
+                left_max = max(left_max, height[left])
+                res += left_max - height[left]
             else:
-                last_entry = False if j + 1 < (len(height) - 1) else True
+                right = right - 1
+                right_max = max(right_max, height[right])
+                res += right_max - height[right]
+
+        return res
 
 if __name__ == "__main__":
     height = [0,1,0,2,1,0,1,3,2,1,2,1]
-
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    output = Solution().trap(height)
+    print(output)
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(1)')
