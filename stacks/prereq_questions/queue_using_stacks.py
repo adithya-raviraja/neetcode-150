@@ -59,5 +59,5 @@ if __name__ == "__main__":
     print(obj.pop())
     print(obj.peek())
     print(obj.empty())
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(n)')
