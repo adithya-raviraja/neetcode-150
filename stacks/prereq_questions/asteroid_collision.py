@@ -45,5 +45,5 @@ if __name__ == "__main__":
     asteroids = [10,2,-5]
     output = Solution().asteroidCollision(asteroids)
     print(output)
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(n)')
