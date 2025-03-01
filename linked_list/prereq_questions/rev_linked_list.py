@@ -33,5 +33,5 @@ if __name__ == "__main__":
         print(rev_list.val)
         rev_list = rev_list.next
         
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(1)')
