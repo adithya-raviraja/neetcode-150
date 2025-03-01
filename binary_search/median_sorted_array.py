@@ -36,8 +36,8 @@ class Solution:
 
 
 if __name__ == "__main__":
-    nums1 = [1,3]
-    nums2 = [2,4]
+    nums1 = [1,2]
+    nums2 = [3,4]
     output = Solution().findMedianSortedArrays(nums1, nums2)
     print('OUTPUT: ', output)
     print('TIME COMPLEXITY: ')
