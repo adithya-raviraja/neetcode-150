@@ -1,1 +1,1 @@
-I am referring the <a href="https://neetcode.io/roadmap"> neetcode-150 questions </a>. Code answers are primarily from my understanding and approach. Will only refer to the answer incase I am unable to solve myself.
+I am referring the <a href="https://neetcode.io/roadmap"> neetcode-150 questions </a>. Code answers are primarily from my understanding and approach. Will only refer to the answer incase I am unable to solve myself. Ideal goal is to solve all of the questions there and move on the algomaps or something else.
