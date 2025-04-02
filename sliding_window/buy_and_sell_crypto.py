@@ -22,5 +22,5 @@ if __name__ == "__main__":
     prices = [10,8,7,5,2]
     output = Solution().maxProfit(prices)
     print(output)
-    print('TIME COMPLEXITY: ')
-    print('SPACE COMPLEXITY: ')
+    print('TIME COMPLEXITY: O(n)')
+    print('SPACE COMPLEXITY: O(1)')
